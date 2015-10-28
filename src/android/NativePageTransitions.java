@@ -98,7 +98,7 @@ public class NativePageTransitions extends CordovaPlugin {
 
     // Transitions are below par when this is switched off in the manifest, so enabling it here.
     // We may need to have developers suppress this via a param in the future.
-    enableHardwareAcceleration();
+    //enableHardwareAcceleration();
 
     layout = new FrameLayout(cordova.getActivity());
     layout.setLayoutParams(getView().getLayoutParams());
